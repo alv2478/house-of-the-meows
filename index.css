@@ -1,0 +1,235 @@
+body {
+    font-family: arial, verdana, helvetica;
+    color: #005E61;
+    font-size: 14px;
+    background-color: #E0FEFF;
+}
+
+#logo {
+		width: 90%;
+		height: 200px;
+		background-image: url("../images/logo.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+nav{
+		width: 90%;
+		height: 60px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #005E61;
+		font-size:1vw;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 5px #005E61;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 5px #005E61;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+
+nav ul li{
+		font-size: 44px;
+		list-style-type: none;
+		float: left;
+		padding: 10px;
+		margin-left: 120px;
+		vertical-align: middle;
+}
+
+nav ul li a{
+		color: #E0FEFF;
+		text-decoration: none;
+		
+}
+
+nav ul li a:hover{
+		color: #FFA214;
+		
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #9e6003;
+}
+
+a:active {
+  color: #fff;
+}
+
+#bannercat {
+	text-align: center;
+}	
+
+#bannercat img {
+	width: 90%;
+	
+}
+
+#weekly {
+		margin-left: 140px;
+		margin-bottom: 10px;
+		font-family: arial, verdana, helvetica;
+		color: white;
+		background-color: #00BAc0;
+		width: 600px;
+		height: 500px;
+		padding: 10px;
+		display: block;
+		border: 4px solid #005e61;
+		text-align: center;
+		float: left;
+}
+
+#weekly img {
+	width: 250px;
+}
+
+#learn {
+		margin-left: 20px;
+		font-family: arial, verdana, helvetica;
+		color: white;
+		text-shadow: 2px 2px 5px #9e6003;
+		background-color: #FFA214;
+		width: 900px;
+		height: 520px;
+		text-align: center;
+		position: relative;
+		left: 50px;
+		border: 4px solid #da8400;
+		overflow: hidden;
+}
+
+#learn h1{
+		color: white;
+		font-size: 40px;
+		font-family: arial, verdana, helvetica;
+		text-shadow: 2px 2px 5px #da8400;
+}
+
+#learn h2{
+		color: white;
+		font-size: 25px;
+		font-family: arial, verdana, helvetica;
+		text-shadow: 2px 2px 5px #da8400;
+}
+
+footer {
+		width: 100%;
+		height: 100px;
+		color: #ffffff;
+		text-align: center;
+		background-color: #005E61;
+		float: left;
+}
+
+#contact {
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		font-family: arial, verdana, helvetica;
+		color: white;
+		background-color: #00BAc0;
+		width: 1000px;
+		height: 400px;
+		padding: 5px;
+		display: block;
+		border: 4px solid #005e61;
+		text-align: center;
+		background-image: url("../images/ScarPC.png");
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		text-shadow: 2px 2px 5px #005E61;
+		
+}
+
+/* Used by CatBio*/ 
+
+
+#outercat {
+		font-family: arial, verdana, helvetica;
+		color: white;
+		background-color: #00BAc0;
+		width: 90%;
+		padding: 10px;
+		border: 4px solid #005e61;
+		text-align: center;
+		display: block;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+}
+
+/* Used by Memory*/ 
+#outercat2 {
+		font-family: arial, verdana, helvetica;
+		color: white;
+		background-color: #00BAc0;
+		width: 60%;
+		padding: 10px;
+		border: 4px solid #005e61;
+		text-align: center;
+		display: block;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+} 
+/* Used by Memory, CatBio */ 
+.innercat {
+		display: inline-block;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		vertical-align: top;
+		padding: 20px;
+		font-family: arial, verdana, helvetica;
+		color: #005e61;
+		background-color: #b3f0f2;
+		width: 250px;
+		height: 100%;
+		text-align: center;
+		border: 4px solid #005e61;
+		
+}
+/* Gallery Div container*/ 
+#gallery {
+		text-align: center;
+		background-color: #00BAc0;
+		padding: 10px;
+		width: 30%;
+		border: 4px solid #005e61;
+		display: block;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+}
+/* Used by Gallery*/ 
+#gallery img {
+	border: 2px solid #ffffff;
+}
